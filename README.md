@@ -7,3 +7,19 @@ Par <br/>
 Etienne Kita<br/>
 Steven Tea<br/>
 
+<hr/>
+
+<h2>Technologies utilisées</h2>
+<ul>
+<li>Doctrine avec migration</li>
+<li>Form avec buildForm</li>
+</ul>
+
+<h2>Modifications depuis le passage en classe</h2>
+<ul>
+<li>Ajout d'un bouton de déconnexion</li>
+<li>Ajout de fonctions sans les repo Contact et Utilisateur pour simplifier et apporter une meilleure séparation du code</li>
+<li>Redirection de accueil vers login si la session est vide</li>
+</ul>
+
+
