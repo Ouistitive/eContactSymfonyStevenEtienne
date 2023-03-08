@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1> Bienvenue {{ nom }} </h1>
+
+    <h2> Votre liste de contact </h2>
+    
+    <table>
+        <tr>
+            <th> Nom </th>
+            <th> Prénom </th>
+            <th> Email </th>
+        </tr>
+
+        {% for u in utilisateurs %}
+            <tr>
+                <td>{{ u.nom ?? 'N/A' }}</td>
+                <td>{{ u.prenom ?? 'N/A' }}</td>
+                <td>{{ u.email ?? 'N/A' }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <a href='/utilisateur/logout'><button>Se deconnecter</button></a>
+
+{% endblock %}

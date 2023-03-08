@@ -1,0 +1,8 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+contacts:
+    path: /utilisateur/contacts
+    controller: App\Controller\UtilisateurController::contacts
+    methods: ['GET']
