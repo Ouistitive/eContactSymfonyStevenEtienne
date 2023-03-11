@@ -9,6 +9,14 @@ Steven Tea<br/>
 
 <hr/>
 
+<h2>Installation<h2>
+
+Comme le nom l'indique, ce projet fonctionne sous symfony, après l'avoir cloné, cette commande est nécessaire *(dans le terminal du serveur, Ex: Laragon)*
+```
+composer install
+```
+
+
 <h2>Technologies utilisées</h2>
 <ul>
 <li>Doctrine avec migration</li>
